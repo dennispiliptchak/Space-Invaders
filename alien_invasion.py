@@ -6,6 +6,7 @@ class AlienInvasion:
 
     def __init__(self):
         """Intialize the game, and create game resources."""
+        print("Initializing game")
         pygame.init()
         self.clock = pygame.time.Clock()
 
